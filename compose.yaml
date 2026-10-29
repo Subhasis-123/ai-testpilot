@@ -1,0 +1,7 @@
+services:
+  ai-testpilot:
+    build: .
+    container_name: ai-testpilot
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
